@@ -6,4 +6,4 @@ class Employee < ActiveRecord::Base
     validates :last_name, presence: true
     validates :hourly_rate, numericality: true, inclusion: 40..200
   
-  end
+end

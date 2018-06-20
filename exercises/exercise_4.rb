@@ -32,4 +32,3 @@ end
 @womens_apparel_store.each do |store|
   puts "The store #{store.name} and the annual revenue is: #{store.annual_revenue}."
 end
-
